@@ -25,7 +25,6 @@ body:
          2. Click on '...'
          3. Scroll down to '...'
          4. See error"
-    validations:
       required: true
     
   - type: dropdown
@@ -35,8 +34,8 @@ body:
       description: 사용 중인 기기 유형을 선택하세요.
       options:
         - 모바일
-        - 데스크톱    
-      validations:
+        - 데스크톱
+        - 노트북
       required: true
 
   - type: input
