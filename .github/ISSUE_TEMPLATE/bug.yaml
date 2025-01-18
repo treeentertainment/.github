@@ -35,10 +35,9 @@ body:
       description: 사용 중인 기기 유형을 선택하세요.
       options:
         - 모바일
-        - 데스크톱       
+        - 데스크톱
         - 노트북
-    validations:
-       required: true
+   required: true
 
   - type: input
     id: device_info
