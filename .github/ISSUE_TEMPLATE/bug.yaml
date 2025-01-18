@@ -6,7 +6,6 @@ labels:
   - help wanted
   
 body:
-
   - type: textarea
     id: bug_description
     attributes:
@@ -22,10 +21,10 @@ body:
       label: 버그 생성 방법
       description: 버그를 재현할 수 있는 단계를 순서대로 작성해 주세요.
       placeholder: |
-         1. Go to '...'
-         2. Click on '...'
-         3. Scroll down to '...'
-         4. See error"
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
     validations:
       required: true
     
@@ -45,9 +44,9 @@ body:
     id: device_info
     attributes:
       label: 운영체제
-      description: 사용중인 운영체제를 작성해 주세요
+      description: 사용 중인 운영체제를 작성해 주세요.
       placeholder: "예: Windows 10,11 / 안드로이드 / Mac / iPhone 그리고 Chrome, Edge 등등"
-   validations:
+    validations:
       required: true
 
   - type: textarea
@@ -56,4 +55,3 @@ body:
       label: 기타 사항
       description: 추가적으로 알리고 싶은 내용을 적어 주세요.
       placeholder: "이곳에 기타 사항을 입력하세요."
-
