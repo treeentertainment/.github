@@ -1,0 +1,71 @@
+name: 오류 신고
+description: 오류 신고 폼 입니다.
+title: "[버그]"
+labels: 
+  - bug
+  - help wanted
+  
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **오류를 신고하려는 기기 유형을 선택해 주세요.**
+        모바일 또는 데스크톱 항목에 맞는 정보를 입력해 주세요.
+
+  - type: dropdown
+    id: device_type
+    attributes:
+      label: 기기 유형
+      description: 사용 중인 기기 유형을 선택하세요.
+      options:
+        - 모바일
+        - 데스크톱
+
+  - type: input
+    id: device_info
+    attributes:
+      label: 기기 정보
+      description: 모바일 기기 또는 데스크톱 기기 정보를 작성해 주세요.
+      placeholder: "예: Galaxy S22 (Android 13) 또는 Windows 10 (Chrome 115)"
+
+  - type: input
+    id: browser_info
+    attributes:
+      label: 브라우저 정보
+      description: 사용 중인 브라우저 정보를 작성해 주세요.
+      placeholder: "예: Chrome 115, Safari 16.5, Firefox 115"
+
+  - type: markdown
+    attributes:
+      value: |
+        **버그에 대한 자세한 내용을 작성해 주세요.**
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: 버그 설명
+      description: 버그에 대한 구체적인 내용을 작성해 주세요.
+      placeholder: "이곳에 버그 설명을 입력하세요."
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: 버그 생성 방법
+      description: 버그를 재현할 수 있는 단계를 순서대로 작성해 주세요.
+      placeholder: |
+        "1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See error"
+
+  - type: input
+    id: expected_behavior
+    attributes:
+      label: 원하는 행동
+      description: 이 버그가 해결될 경우 기대되는 동작을 작성해 주세요.
+      placeholder: "예: 에러 없이 정상적으로 저장이 완료됩니다."
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 기타 사항
+      description: 추가적으로 알리고 싶은 내용을 적어 주세요.
+      placeholder: "이곳에 기타 사항을 입력하세요."
+
