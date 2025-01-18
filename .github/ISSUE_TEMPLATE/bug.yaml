@@ -53,7 +53,7 @@ body:
       label: 버그 생성 방법
       description: 버그를 재현할 수 있는 단계를 순서대로 작성해 주세요.
       placeholder: |
-        "1. Go to '...'
+         1. Go to '...'
          2. Click on '...'
          3. Scroll down to '...'
          4. See error"
