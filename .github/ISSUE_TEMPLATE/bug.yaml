@@ -6,6 +6,7 @@ labels:
   - help wanted
   
 body:
+
   - type: textarea
     id: bug_description
     attributes:
@@ -37,7 +38,8 @@ body:
         - 모바일
         - 데스크톱
         - 노트북
-   required: true
+    validations:
+      required: true
 
   - type: input
     id: device_info
@@ -45,8 +47,7 @@ body:
       label: 운영체제
       description: 사용중인 운영체제를 작성해 주세요
       placeholder: "예: Windows 10,11 / 안드로이드 / Mac / iPhone 그리고 Chrome, Edge 등등"
-      validations:
-    validations:
+   validations:
       required: true
 
   - type: textarea
