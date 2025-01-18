@@ -14,6 +14,7 @@ body:
       placeholder: "이곳에 버그 설명을 입력하세요."
     validations:
       required: true
+
       
   - type: textarea
     id: reproduction_steps
