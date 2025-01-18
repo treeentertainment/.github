@@ -14,7 +14,6 @@ body:
       placeholder: "이곳에 버그 설명을 입력하세요."
     validations:
       required: true
-
       
   - type: textarea
     id: reproduction_steps
@@ -26,7 +25,7 @@ body:
          2. Click on '...'
          3. Scroll down to '...'
          4. See error"
-     validations:
+    validations:
       required: true
     
   - type: dropdown
