@@ -7,4 +7,4 @@
 
 > ## Accept Requirements
 
-1. Need to know [#202420505](https://github.com/202420505)
+1. Need to know [@202420505](https://github.com/202420505)
