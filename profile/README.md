@@ -15,7 +15,7 @@
 <p align="center">
   • <strong>TREE KIOSK</strong><br>
     <em>(<a href="https://github.com/treeentertainment/KIOSK-DESKTOP">Desktop</a> / <a href="https://github.com/treeentertainment/KIOSK-ANDROID">Android</a> / <a href="https://github.com/treeentertainment/KIOSK">Web</a>)</em><br>
-    <strong>※ This repository is not yet open in beta on gitlab. ※</strong><br><br>
+    <strong>※ These repositories are not yet open in beta on gitlab. ※</strong><br><br>
   • <strong><a href="https://gitlab.com/treestudio/SomeCamera">SomeCamera</a></strong>
 </p>
 
