@@ -3,8 +3,9 @@
 <p align="center">
   <strong>⚠️ Important Notice ⚠️</strong><br>
   A major update is coming soon.<br>
-  Beta apps will be released on <strong><a href="https://gitlab.com/groups/treestudio">GitLab</a></strong>,<br>
-  and official releases will remain on <strong><a href="https://github.com/treeentertainment">GitHub</a></strong>.
+  Beta apps will be released on <strong><a href="https://gitlab.com/groups/treestudio">GitLab</a></strong><br>
+  (GitLab organization will operate under the new name <strong>treestudio</strong>).<br>
+  Official releases will remain on <strong><a href="https://github.com/treeentertainment">GitHub</a></strong>.
 </p>
 
 ---
@@ -13,10 +14,9 @@
 
 <p align="center">
   • <strong>TREE KIOSK</strong><br>
-    <em>(Desktop / Android / Web)</em><br>
-    <strong>※ This repository is not yet open to the public in gitlab.</strong><br><br>
-  • <strong><a href="https://gitlab.com/treestudio/SomeCamera">SomeCamera</a></strong><br>
-    <strong>※ This repository is open to the public in gitlab.</strong><br><br>
+    <em>(<a href="https://github.com/treeentertainment/KIOSK-DESKTOP">Desktop</a> / <a href="https://github.com/treeentertainment/KIOSK-ANDROID">Android</a> / <a href="https://github.com/treeentertainment/KIOSK">Web</a>)</em><br>
+    <strong>※ This repository is not yet open in beta on gitlab.</strong><br><br>
+  • <strong><a href="https://gitlab.com/treestudio/SomeCamera">SomeCamera</a></strong>
 </p>
 
 ---
