@@ -1,26 +1,26 @@
 <h1 align="center">🌳✨ TREE ENTERTAINMENT ✨🌳</h1>
 
 <p align="center">
-  <strong>⚠️ Important Notice ⚠️</strong><br>
-  A major update is coming soon.<br>
-  Beta apps will be released on <strong><a href="https://gitlab.com/groups/treestudio">GitLab</a></strong><br>
-  <em>(※ GitLab organization will operate under the new name <strong>treestudio</strong> ※)</em><br>
-  Official releases will remain on <strong><a href="https://github.com/treeentertainment">GitHub</a></strong>.
+  <img
+    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    alt="GitHub Logo"
+    width="60"
+  />
 </p>
 
----
-
-<h3 align="center">📁 Affected Repositories</h3>
-
 <p align="center">
-  • <strong>TREE KIOSK</strong><br>
-    <em>(<a href="https://github.com/treeentertainment/KIOSK-DESKTOP">Desktop</a> / <a href="https://github.com/treeentertainment/KIOSK-ANDROID">Android</a> / <a href="https://github.com/treeentertainment/KIOSK">Web</a>)</em><br>
-    <strong>※ These repositories are not yet open in beta on gitlab. ※</strong><br><br>
-  • <strong><a href="https://gitlab.com/treestudio/SomeCamera">SomeCamera</a></strong>
+  <strong style="font-size: 18px;">✅ Update Notice ✅</strong><br><br>
+  GitLab was temporarily used <strong>for testing purposes only</strong>.<br>
+  After evaluation, we decided to move back due to<br>
+  <strong>better usability, familiarity, and workflow efficiency</strong>.<br><br>
+  🚀 All development, testing, and official releases are now continued on<br>
+  <strong>
+    <a href="https://github.com/treeentertainment">
+      GitHub (treeentertainment)
+    </a>
+  </strong>
 </p>
 
----
-
 <p align="center">
-  Thank you for your patience and continuous support. 💚
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20ON%20GITHUB-success?style=for-the-badge" />
 </p>
