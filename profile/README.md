@@ -15,9 +15,11 @@ Thank you for your patience and understanding.
 </details>
 
 <p align="center">
+ <a href="https://github.com/treeentertainment">
   <img
     src="https://avatars.githubusercontent.com/u/189629772"
     alt="Treeentertainment Logo"
     width="200"
   />
+ </a>
 </p>
