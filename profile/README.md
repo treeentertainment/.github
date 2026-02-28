@@ -2,8 +2,7 @@
 
 <p align="center">
  <a href="https://github.com/treeentertainment">
-  <img
-    src="https://avatars.githubusercontent.com/u/189629772"
+  <img src="https://avatars.githubusercontent.com/treeentertainment"
     alt="TREE ENTERTAINMENT LOGO"
     width="200"
   />
