@@ -1,0 +1,74 @@
+name: "🐛 Bug Report"
+title: "🐛 BUG: "
+description: "Report a bug using the Five Ws format."
+projects: []
+labels:
+  - bug
+  - new
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the details below to help us understand and resolve the issue.
+
+  - type: textarea
+    id: who
+    attributes:
+      label: Who?
+      description: Who encountered this issue? (e.g., user role, team, environment)
+      placeholder: "e.g., QA team, end-user, developer"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: what
+    attributes:
+      label: What?
+      description: Which platform(s) are you using?
+      options:
+        - label: Windows
+        - label: macOS
+        - label: Linux
+        - label: Android
+        - label: iOS
+        - label: Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: when
+    attributes:
+      label: When?
+      description: When did the issue occur?
+      placeholder: "e.g., After the latest update, specific date/time, during a specific action"
+    validations:
+      required: true
+
+  - type: textarea
+    id: where
+    attributes:
+      label: Where?
+      description: Where can others reproduce or observe this issue?
+      placeholder: "e.g., specific page, feature, or environment"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: Why should this issue be fixed? What impact does it have?
+      placeholder: "e.g., affects user experience, blocks functionality, causes data loss"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Issue template generated using:
+        https://wintkhantlin.github.io/github-issue-template-generator
+
+        Based on the Five Ws concept:
+        https://en.wikipedia.org/wiki/Five_Ws
