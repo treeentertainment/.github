@@ -4,6 +4,7 @@ description: "Report a bug by using this Template."
 projects: []
 labels:
   - bug
+  - english
   - new
   
 body:
@@ -12,6 +13,13 @@ body:
       value: |
         Please fill out the details below to help us understand and resolve the issue.
 
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > Coding is not about learning English. You can use tools like AI to comprehend your problem
+        > But please review your input as AI can have flaws or limitations 
+        
   - type: textarea
     id: who
     attributes:
