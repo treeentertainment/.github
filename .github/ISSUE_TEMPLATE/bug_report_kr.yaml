@@ -40,7 +40,7 @@ body:
         - label: Linux (리눅스)
         - label: Android (안드로이드)
         - label: iOS (아이폰)
-        - label: Other (기타: 구글 픽셀, 샤오미, LG 등)
+        - label: Other (기타 구글 픽셀, 샤오미, LG 등)
     validations:
       required: true
 
