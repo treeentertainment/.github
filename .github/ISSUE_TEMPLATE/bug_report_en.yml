@@ -1,11 +1,11 @@
-name: "🐛 Bug Report"
-title: "🐛 BUG: "
-description: "Report a bug using the Five Ws format."
+name: "<English> Bug Report Template"
+title: "[BUG] :  "
+description: "Report a bug by using this Template."
 projects: []
 labels:
   - bug
   - new
-
+  
 body:
   - type: markdown
     attributes:
@@ -62,13 +62,3 @@ body:
       placeholder: "e.g., affects user experience, blocks functionality, causes data loss"
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        Issue template generated using:
-        https://wintkhantlin.github.io/github-issue-template-generator
-
-        Based on the Five Ws concept:
-        https://en.wikipedia.org/wiki/Five_Ws
