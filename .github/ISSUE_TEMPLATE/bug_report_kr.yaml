@@ -1,0 +1,72 @@
+name: "<한국어> 버그 보고 작성 탬플릿"
+title: "[버그] :  "
+description: "이 탬플릿을 사용하여 버그 (오류, 문제) 를 보고해주세요"
+projects: []
+labels:
+  - bug
+  - korean
+  - new
+  
+body:
+  - type: markdown
+    attributes:
+      value: |
+        팀이 문제를 이해하고, 해결하기 위해 하단에 세부사항을 작성해주십시오.
+
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > 코딩은 국어가 아닙니다. AI 등을 활용하여 정보 제공하는것은 언제든 상관 없습니다.
+        > 다만 제출 시 정보의 오류가 있는지 한번씩 검토 부탁드립니다.
+        
+  - type: textarea
+    id: who
+    attributes:
+      label: Who?
+      description: 누가 이 문제에 영향을 받는가요? (역할, 팀, 환경 등)
+      placeholder: "예: 팀, 지원 종료 사용자, 개발자 등"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: what
+    attributes:
+      label: What?
+      description: 어떤 컴퓨터/휴대폰 등의 운영 체제를 사용하고 계신가요?
+      options:
+        - label: Windows (윈도우)
+        - label: macOS (맥OS)(애플)
+        - label: Linux (리눅스)
+        - label: Android (안드로이드)
+        - label: iOS (아이폰)
+        - label: Other (기타: 구글 픽셀, 샤오미, LG 등)
+    validations:
+      required: true
+
+  - type: textarea
+    id: when
+    attributes:
+      label: When?
+      description: 이 문제가 언제 발생했나요?
+      placeholder: "최신 릴리스 이후, 특정 시간/날짜, 특정 행동 이후 등"
+    validations:
+      required: true
+
+  - type: textarea
+    id: where
+    attributes:
+      label: Where?
+      description: 다른 사람들이 어떻게 하면 이 오류에 접근 할 수 있나요?
+      placeholder: "특정 페이지, 기능, 환경 등"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: 오류/버그의 수정이 필요한 이유는 무엇인가요?
+      placeholder: "사용자 이용 경험 영향, 기능 저하, 데이터 손실 등"
+    validations:
+      required: true
