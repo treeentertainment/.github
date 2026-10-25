@@ -12,4 +12,4 @@
  </a>
 </p>
 
-> View [Our Announcement](https://github.com/treeentertainment/.github/discussions/1) for more details
+> View [Our Announcement](https://github.com/orgs/treeentertainment/discussions/1) for more details
