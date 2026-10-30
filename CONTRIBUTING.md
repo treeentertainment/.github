@@ -8,7 +8,9 @@ The following is a set of guidelines for contributing. These are mostly guidelin
 
 We embrace modern tools, including AI, but we strongly believe in a **"Human First, Humanist"** approach to development. AI is here to assist, not to replace human understanding, empathy, and accountability.
 
-**Crucial:** If you plan to use AI (like GitHub Copilot, ChatGPT, or autonomous AI agents) to assist with your contribution, you **must** read our [AI Usage Guidelines](AI_GUIDELINES.md) before submitting a Pull Request. 
+> [!CAUTION]
+> If you plan to use AI (like GitHub Copilot, ChatGPT, or autonomous AI agents) to assist with your contribution,
+> you **must** read the [AI Guidelines](#ai-guidelines) section before submitting a Pull Request. 
 
 Our AI guidelines outline:
 * What AI usage requires mandatory disclosure.
@@ -38,11 +40,67 @@ When you're ready to submit code:
 6. **Push** your branch to your fork (`git push origin feature/my-awesome-feature`).
 7. **Open a Pull Request** against our `main` branch.
 
-**Note:** When opening a Pull Request, please ensure you fill out our provided **Pull Request Template**. This template includes a mandatory checklist and an AI Usage Disclosure section that you must complete.
+> [!NOTE]
+> When opening a Pull Request, please ensure you fill out our provided **Pull Request Template**. This template includes a mandatory checklist and an AI Usage Disclosure section that you must complete.
 
 ## Development Setup
 
 *(Maintainers: You can add specific instructions here on how contributors should set up their local development environment, install dependencies, run tests, etc.)*
 
 ---
-Thank you for your time, effort, and adherence to our humanist coding philosophy!
+
+## AI Guidelines
+
+### AI Usage Guidelines for Contributors
+
+Our repository embraces the helpful capabilities of Artificial Intelligence, but we firmly believe in a **"Human First, Humanist"** approach to software development. AI should empower human creativity and problem-solving, not replace human understanding and accountability.
+
+To ensure code quality, transparency, and security, please adhere to the following guidelines when using AI tools (such as GitHub Copilot, ChatGPT, AI Agents, etc.) for your contributions.
+
+#### 1. Transparency and Disclosure
+
+You are welcome to use AI to assist with your contributions, but transparency is mandatory.
+
+* **Mandatory Disclosure:** If you use AI to directly write or modify code, you must clearly state this in your Pull Request (PR) description. If AI was only used for a portion of the code, you must specify the exact scope and extent of its usage.
+* **Optional Disclosure:** You are not required to disclose AI usage if the tools were strictly used for non-direct code modifications, such as:
+* Searching for information or references
+* Error checking and syntax validation
+* Root cause analysis of bugs
+* Writing or formatting documentation
+
+#### 2. Proof of Work
+
+To help maintainers understand and verify your changes, all PRs must include clear evidence of the working code.
+
+* You must provide a **reproduce video, demo video, screenshot, or a highly detailed written explanation** of the changes in action.
+* **Exceptions:** If providing visual or detailed proof is impossible due to the nature of the change (e.g., backend infrastructure tweaks), you must explicitly write down the reason why it cannot be provided in the PR description.
+
+#### 3. Contributor Accountability
+
+AI can hallucinate or introduce subtle flaws. When you submit code generated or heavily modified by AI (including autonomous AI Agents):
+
+* **You hold full responsibility** for the submitted code.
+* This includes taking ownership of any functional errors, security vulnerabilities, or performance issues that arise from the AI-generated code. You are expected to fully understand the code you are submitting.
+
+#### 4. Review Process and Additional Scrutiny
+
+Be aware that PRs containing AI-generated code may require a more rigorous review process.
+
+* Maintainers may request **additional information, clarifications, or deeper explanations** regarding how the code works and why specific implementation choices were made.
+
+#### 5. Discouraged Use Cases
+
+While AI is a powerful assistant, we strongly advise against using it to directly generate or modify code in high-stakes areas. Using AI is **not recommended** for:
+
+* **Core architecture and critical system code**
+* **UI/UX code** where human empathy and design nuance are essential
+* **Large-scale refactoring or mass code modifications**
+
+#### 6. Flexible Operations (Admin Discretion)
+
+These guidelines are designed to be operated flexibly depending on the context of the contribution.
+
+* **Admin Respect:** Repository administrators and maintainers reserve the right to apply these rules elastically and make final decisions based on the specific circumstances of each PR.
+
+---
+_Thank you for your time, effort, and adherence to our humanist coding philosophy!_
